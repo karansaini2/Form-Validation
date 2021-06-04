@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background:black;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity:0.8;
+    background: linear-gradient(#f00, #f0f);
+    clip-path: circle(30% at right 60%);
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity:0.8;
+    background: linear-gradient(#2196f3, #e91e63);
+    clip-path: circle(30% at left 10%)
+}
+
+#suceess{
+    font-size:1.2rem;
+    text-align:center;
+}
+.container {
+
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container #suceess{
+    background-color: greenyellow;
+    color: black;
+    width: 300px;
+    padding:5px;
+}
+form {
+    display: flex;
+    flex-direction:column;
+}
+form h2{
+    margin-top:10px;
+    color: aliceblue;
+    text-align: center;
+}
+.labels{
+    color: white;
+    margin-top: 13px;
+}
+.form-control{
+    width: 400px;
+    border: 0;
+    outline: none;
+    padding:3px;
+    margin-top: 3px;
+}
+
+.error{
+    color: red;
+}
+#textarea{
+    border: 0;
+    outline: none;
+    height:45px;
+    padding:3px;
+    margin-top:3px;
+}
+#btn{
+    width: 55px;
+    height: 25px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+@media(max-width:920px){
+    body::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 70%;
+        width: 100%;
+        opacity:0.8;
+        background: linear-gradient(#f00, #f0f);
+        clip-path: circle(25% at right 50%);
+    }
+    
+    body::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity:0.8;
+        background: linear-gradient(#2196f3, #e91e63);
+        clip-path: circle(20% at left 10%)
+    }
+
+} 
+@media(max-width:690px){
+
+    body::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 50%;
+        width: 100%;
+        opacity:0.8;
+        background: linear-gradient(#f00, #f0f);
+        clip-path: circle(30% at right 45%);
+    }
+    
+    body::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 50%;
+        width: 100%;
+        opacity:0.8;
+        background: linear-gradient(#2196f3, #e91e63);
+        clip-path: circle(20% at left 10%)
+    }
+    .container #suceess{
+       
+        
+        width: 220px;
+       
+    }
+    .form-control{
+        width: 250px;
+        
+    }
+} 
+
+
+
+
+
+    
+
+
+
+
+
