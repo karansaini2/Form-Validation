@@ -108,7 +108,7 @@ form h2{
         width: 100%;
         opacity:0.8;
         background: linear-gradient(#2196f3, #e91e63);
-        clip-path: circle(20% at left 10%)
+        clip-path: circle(18% at left 10%)
     }
 
 } 
@@ -123,7 +123,7 @@ form h2{
         width: 100%;
         opacity:0.8;
         background: linear-gradient(#f00, #f0f);
-        clip-path: circle(30% at right 45%);
+        clip-path: circle(18% at right 25%);
     }
     
     body::after {
@@ -135,7 +135,7 @@ form h2{
         width: 100%;
         opacity:0.8;
         background: linear-gradient(#2196f3, #e91e63);
-        clip-path: circle(20% at left 10%)
+        clip-path: circle(15% at left 10%)
     }
     .container #suceess{
        
