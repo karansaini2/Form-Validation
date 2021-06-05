@@ -26,7 +26,7 @@ email.addEventListener('blur', () =>{
 })
 
 password.addEventListener('blur', () =>{
-    let regex = /^([_\-\.@0-9a-zA-Z]+)$/;
+    let regex = /^([_\-\.@#\*\^0-9a-zA-Z]+)$/;
    let str = password.value;
    if (regex.test(str)) {
      error2.innerHTML="";
